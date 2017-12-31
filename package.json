@@ -62,7 +62,6 @@
   },
   "scripts": {
     "test": "mocha --full-trace --ui tdd --bail --reporter spec tests/*.js",
-    "precommit": "lint-staged",
     "start": "node index.js"
   },
   "lint-staged": {
